@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Acknowledge a Map
-  description: Acknowledge a Map
+- name: Akamai API List Geographic Maps
+  description: List Geographic Maps
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Maps
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/akamai/siteshield-v1-maps-id-acknowledge-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/akamai/config-gtm-v1-domains-domain-geographic-maps-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
