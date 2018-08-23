@@ -1,110 +1,118 @@
 {
-	"name": "Plentymarkets",
-	"x-slug": "plentymarkets",
-	"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/plentymarkets.png",
+	"name": "Broadleaf Commerce",
+	"x-slug": "broadleaf-commerce",
+	"description": "Broadleaf Commerce is a software technology company headquartered in Dallas, Texas, providing an open source Java eCommerce platform based on Spring Framework.",
+	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28889-www-broadleafcommerce-com.jpg",
 	"x-kinRank": "7",
-	"x-alexaRank": "",
+	"x-alexaRank": "603625",
 	"tags": "Maps",
-	"created": "2018-08-19",
-	"modified": "2018-08-19",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/apis.md",
+	"created": "2018-08-23",
+	"modified": "2018-08-23",
+	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/broadleaf-commerce\/apis.md",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Plentymarkets",
-			"x-api-slug": "plentymarkets",
-			"description": "the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/plentymarkets.png",
-			"humanURL": "http:\/\/www.plentymarkets.co.uk",
-			"baseURL": "https:\/\/example.com\/\/",
-			"tags": "ERP, Service API, Relative Data API",
+			"name": "Broadleaf Commerce API",
+			"x-api-slug": "broadleaf-commerce-api",
+			"description": "the-default-broadleaf-commerce-apis",
+			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28889-www-broadleafcommerce-com.jpg",
+			"humanURL": "https:\/\/www.broadleafcommerce.com",
+			"baseURL": "https:\/\/demo.broadleafcommerce.org\/\/api\/v1",
+			"tags": "New, Technology, SaaS, Enterprise, Relative Data, Service API",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/restitemsattributesmaps-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/restitemsattributesmaps-get-openapi.md"
+					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/broadleaf-commerce\/mappings-get-openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Plentymarkets",
-			"x-api-slug": "plentymarkets",
-			"description": "the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/plentymarkets.png",
-			"humanURL": "http:\/\/www.plentymarkets.co.uk",
-			"baseURL": "https:\/\/example.com\/\/",
-			"tags": "ERP, Service API, Relative Data API",
+			"name": "Broadleaf Commerce API",
+			"x-api-slug": "broadleaf-commerce-api",
+			"description": "the-default-broadleaf-commerce-apis",
+			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28889-www-broadleafcommerce-com.jpg",
+			"humanURL": "https:\/\/www.broadleafcommerce.com",
+			"baseURL": "https:\/\/demo.broadleafcommerce.org\/\/api\/v1",
+			"tags": "New, Technology, SaaS, Enterprise, Relative Data, Service API",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/restitemsattributesmaps-get-postman.md"
+					"type": "x-openapi-spec",
+					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/broadleaf-commerce\/mappings-get-openapi.md"
 				},
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/restitemsattributesmaps-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/restitemsattributesvaluesmaps-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/restitemsattributesvaluesmaps-get-openapi.md"
+					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/broadleaf-commerce\/mappings-json-get-openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Plentymarkets",
-			"x-api-slug": "plentymarkets",
-			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/plentymarkets.png",
-			"humanURL": "http:\/\/www.plentymarkets.co.uk",
-			"baseURL": "https:\/\/example.com\/\/",
+			"name": "Broadleaf Commerce API",
+			"x-api-slug": "broadleaf-commerce-api",
+			"description": "Broadleaf Commerce is a software technology company headquartered in Dallas, Texas, providing an open source Java eCommerce platform based on Spring Framework.",
+			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28889-www-broadleafcommerce-com.jpg",
+			"humanURL": "https:\/\/www.broadleafcommerce.com",
+			"baseURL": "https:\/\/demo.broadleafcommerce.org\/\/api\/v1",
 			"tags": "Maps",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/plentymarkets\/openapi.md"
+					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/maps\/master\/_listings\/broadleaf-commerce\/openapi.md"
 				}
 			]
 		}
 	],
 	"x-common": [
 		{
-			"type": "x-blog-rss",
-			"url": "https:\/\/www.plentymarkets.co.uk\/?ActionCall=WebActionRSS&rrss_id=1"
+			"type": "x-openapi",
+			"url": "https:\/\/demo.broadleafcommerce.org\/api\/v1\/v2\/api-docs"
 		},
 		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/plentymarkets"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/plentymarketsuk"
-		},
-		{
-			"type": "x-website",
-			"url": "http:\/\/www.plentymarkets.co.uk"
+			"type": "x-api-gallery",
+			"url": "http:\/\/boxcar.api.gallery.streamdata.io"
 		},
 		{
 			"type": "x-api-stack",
-			"url": "http:\/\/plentymarkets.stack.network"
+			"url": "http:\/\/broadleaf.commerce.stack.network"
 		},
 		{
-			"type": "x-blog",
-			"url": "https:\/\/www.plentymarkets.co.uk\/blog\/"
+			"type": "x-crunchbase",
+			"url": "https:\/\/crunchbase.com\/organization\/broadleaf-commerce"
 		},
 		{
-			"type": "x-pricing",
-			"url": "https:\/\/www.plentymarkets.co.uk\/prices\/"
+			"type": "x-documentation",
+			"url": "https:\/\/demo.broadleafcommerce.org\/api\/v1\/swagger-ui.html#\/catalog45endpoint"
+		},
+		{
+			"type": "x-email",
+			"url": "info@broadleafcommerce.org"
+		},
+		{
+			"type": "x-email",
+			"url": "info@broadleafcommerce.com"
+		},
+		{
+			"type": "x-email",
+			"url": "marketing@broadleafcommerce.com"
+		},
+		{
+			"type": "x-email",
+			"url": "legal@broadleafcommerce.com"
+		},
+		{
+			"type": "x-email",
+			"url": "security@broadleafcommerce.com"
+		},
+		{
+			"type": "x-getting-started",
+			"url": "https:\/\/www.broadleafcommerce.com\/docs\/core\/current\/getting-started"
+		},
+		{
+			"type": "x-twitter",
+			"url": "https:\/\/twitter.com\/broadleaf"
 		},
 		{
 			"type": "x-website",
-			"url": "https:\/\/www.plentymarkets.co.uk"
+			"url": "https:\/\/www.broadleafcommerce.com"
 		}
 	],
 	"include": [

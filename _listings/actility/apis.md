@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-acti
 x-kinRank: "7"
 x-alexaRank: "637591"
 tags: Maps
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/apis.md
 specificationVersion: "0.14"
 apis:
@@ -41,8 +41,7 @@ apis:
   humanURL: https://www.actility.com
   baseURL: https://dx-api.thingpark.com//dataflow/v021/api
   tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
-    API Provider, New, Parking, Sensors, Energy, Industrial, Profiles, Relative Data
-    API, Networks
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
@@ -55,8 +54,7 @@ apis:
   humanURL: https://www.actility.com
   baseURL: https://dx-api.thingpark.com//dataflow/v021/api
   tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
-    API Provider, New, Parking, Sensors, Energy, Industrial, Profiles, Relative Data
-    API, Networks
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
@@ -64,6 +62,231 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+- name: ThingPark DX Dataflow API
+  x-api-slug: thingpark-dx-dataflow-api
+  description: api-for-managing-thingpark-x-dataflows-and-associating-those-dataflows-with-thingpark-devices-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/actility/constantmapsconstantmapref-delete-openapi.md
 - name: ThingPark DX Dataflow API
   x-api-slug: thingpark-dx-dataflow-api
   description: 'Actility is the leader in low power wide area (LoRaWAN and 3GPP) network
@@ -104,6 +327,8 @@ x-common:
   url: https://github.com/actility
 - type: x-openapi
   url: https://dx-api.thingpark.com/core/latest/tpdx-core-api-contract.json
+- type: x-api-gallery
+  url: http://actility.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://actility.stack.network
 - type: x-blog

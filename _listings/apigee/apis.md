@@ -10,93 +10,622 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Maps
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Apigee Edge Get Organizations Name Keyvaluemaps
+- name: Apigee Edge
   x-api-slug: apigee-edge
-  description: Returns an expanded view of all Maps scoped by organization, environment
-    or API.
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
   humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps
-  tags: Organizations,Keyvaluemaps
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemaps-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemaps-get-openapi.md
-- name: Apigee Edge Post Organizations Name Keyvaluemaps
-  x-api-slug: apigee-edge
-  description: Creates a KeyValueMap.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
-  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps
-  tags: Organizations,Keyvaluemaps
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemaps-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemaps-post-openapi.md
-- name: Apigee Edge Get Organizations Name Keyvaluemaps Map Name Entries Entry Name
-  x-api-slug: apigee-edge
-  description: Gets a specific entry details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
-  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps/{map_name}/entries/{entry_name}
-  tags: Organizations,Keyvaluemaps,Map,Entries,Entry
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
-- name: Apigee Edge Delete Organizations Name Keyvaluemaps Map Name Entries Entry
-    Name
+- name: Apigee Edge
   x-api-slug: apigee-edge
-  description: Deletes a single entry by name.
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
   humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps/{map_name}/entries/{entry_name}
-  tags: Organizations,Keyvaluemaps,Map,Entries,Entry
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
-- name: Apigee Edge Get Organizations Name Keyvaluemaps Map Name
+- name: Apigee Edge
   x-api-slug: apigee-edge
-  description: Gets a KeyValueMap by name, along with associated entries.
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
   humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps/{map_name}
-  tags: Organizations,Keyvaluemaps,Map
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
-- name: Apigee Edge Put Organizations Name Keyvaluemaps Map Name
+- name: Apigee Edge
   x-api-slug: apigee-edge
-  description: Updates an existing KeyValueMap.
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
   humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps/{map_name}
-  tags: Organizations,Keyvaluemaps,Map
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
-- name: Apigee Edge Delete Organizations Name Keyvaluemaps Map Name
+- name: Apigee Edge
   x-api-slug: apigee-edge
-  description: Deletes a KeyValueMap and all associated entries.
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
   humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
-  baseURL: https://api.enterprise.apigee.com//v1///organizations/{org_name}/keyvaluemaps/{map_name}
-  tags: Organizations,Keyvaluemaps,Map
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+- name: Apigee Edge
+  x-api-slug: apigee-edge
+  description: restful-management-api-to-create-configure-and-manage-api-proxies-and-api-products-create-and-manage-apps-and-app-developers-and-more-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
+  humanURL: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
+  baseURL: https://api.enterprise.apigee.com//v1/
+  tags: Management, Proxies, API Service Provider, Deployments, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-nameentriesentry-name-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/organizationsorg-namekeyvaluemapsmap-name-delete-postman.md
   - type: x-openapi-spec
@@ -116,6 +645,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/apigee/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apigee.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://apigee.stack.network
 - type: x-website
   url: https://docs.apigee.com/api-platform/get-started/what-apigee-edge
 include: []

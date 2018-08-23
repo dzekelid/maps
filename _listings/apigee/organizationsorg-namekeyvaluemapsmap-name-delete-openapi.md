@@ -15,44 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /organizations/{org_name}/keyvaluemaps:
-    get:
-      summary: Get Organizations Name Keyvaluemaps
-      description: Returns an expanded view of all Maps scoped by organization, environment
-        or API.
-      operationId: getOrganizationsOrgNameKeyvaluemaps
-      x-api-path-slug: organizationsorg-namekeyvaluemaps-get
-      parameters:
-      - in: query
-        name: expand
-        description: Set expand value to true
-      - in: path
-        name: org_name
-        description: Mention the organization name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Organizations
-      - Keyvaluemaps
-    post:
-      summary: Post Organizations Name Keyvaluemaps
-      description: Creates a KeyValueMap.
-      operationId: postOrganizationsOrgNameKeyvaluemaps
-      x-api-path-slug: organizationsorg-namekeyvaluemaps-post
-      parameters:
-      - in: query
-        name: Content-Type
-        description: Specify the Content Type
-      - in: path
-        name: org_name
-        description: Mention the organization name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Organizations
-      - Keyvaluemaps
   /organizations/{org_name}/keyvaluemaps/{map_name}/entries/{entry_name}:
     get:
       summary: Get Organizations Name Keyvaluemaps Map Name Entries Entry Name

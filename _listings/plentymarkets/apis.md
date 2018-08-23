@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Maps
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data API
+  tags: ERP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
@@ -34,7 +34,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data API
+  tags: ERP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
@@ -44,6 +44,990 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+- name: Plentymarkets
+  x-api-slug: plentymarkets
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmaps-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesvaluesmarketsmaps-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/plentymarkets/restitemsattributesattributeidvaluesattributevalueidmarketsmarketidmaps-put-openapi.md
 - name: Plentymarkets
   x-api-slug: plentymarkets
   description: plentymarkets is an all-in-one e-commerce ERP solution, which combines
@@ -68,6 +1052,8 @@ x-common:
   url: https://twitter.com/plentymarketsuk
 - type: x-website
   url: http://www.plentymarkets.co.uk
+- type: x-api-gallery
+  url: http://pivotal.tracker.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://plentymarkets.stack.network
 - type: x-blog

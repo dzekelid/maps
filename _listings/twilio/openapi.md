@@ -1,0 +1,171 @@
+---
+swagger: "2.0"
+x-collection-name: Twilio
+x-complete: 1
+info:
+  title: Twilio
+  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+  termsOfService: https://www.twilio.com/legal/tos
+  version: v1
+host: api.twilio.com
+basePath: /2010-04-01/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}:
+    delete:
+      summary: Delete Domains IP Access Control List Mappings
+      description: Delete a domain. If you have created subdomains of a domain, you
+        will not be able to delete the domain until you first delete all subdomains
+        of it.
+      operationId: delete-a-domain-if-you-have-created-subdomains-of-a-domain-you-will-not-be-able-to-delete-the-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsid-delete
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}/CredentialListMappings:
+    get:
+      summary: Get Domains Credentials
+      description: Get the user lists mapped to this domain.
+      operationId: get-the-user-lists-mapped-to-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+    post:
+      summary: Add Domains Credentials
+      description: Map a CredentialList to the domain.
+      operationId: map-a-credentiallist-to-the-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}/CredentialListMappings/{CLSid}:
+    delete:
+      summary: Delete Domains Credentials
+      description: Remove a CredentialListMapping from a domain
+      operationId: remove-a-credentiallistmapping-from-a-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: CLSid
+        description: A 34 character string that uniquely identifies the credential
+          list
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}/IpAccessControlListMappings:
+    get:
+      summary: Get Domains IP Access Control List Mapping
+      description: Return the IpAccessControlListMappings that are associated to this
+        domain.
+      operationId: return-the-ipaccesscontrollistmappings-that-are-associated-to-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+    post:
+      summary: Add Domains IP Access Control List Mappings
+      description: Map an IpAccessControlList to this domain.
+      operationId: map-an-ipaccesscontrollist-to-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}/IpAccessControlListMappings/{ALSid}:
+    delete:
+      summary: Delete Domains Credentials
+      description: Remove a mapping from this domain.
+      operationId: remove-a-mapping-from-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: ALSid
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+    get:
+      summary: Get Domains IP Access Control List Mappings
+      description: Return a specific IpAccessControlListMapping instance by Sid.
+      operationId: return-a-specific-ipaccesscontrollistmapping-instance-by-sid
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: ALSid
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+---
