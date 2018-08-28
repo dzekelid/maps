@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
+- name: GIG & Crowd - Post Gigme Event Previews Map
+  x-api-slug: apiv1gigmeeventpreviewsmap-post
+  description: Post gigme event previews map.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
   humanURL: https://gigandcrowd.com
   baseURL: https://gigandcrowd.com//
@@ -22,9 +22,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
+- name: GIG & Crowd - Post Gigme Event Previews Map
+  x-api-slug: apiv1gigmeeventpreviewsmap-post
+  description: Post gigme event previews map.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
   humanURL: https://gigandcrowd.com
   baseURL: https://gigandcrowd.com//
@@ -32,11 +32,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
+- name: GIG & Crowd - Post Gigme Event Previews Map
+  x-api-slug: apiv1gigmeeventpreviewsmap-post
+  description: Post gigme event previews map.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
   humanURL: https://gigandcrowd.com
   baseURL: https://gigandcrowd.com//
@@ -44,22 +42,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: 'A unique system of the order and booking of artists: negotiations,
-    coordination of conditions, convenient reminders of fee payment terms and rider
-    preparation.'
+- name: GIG & Crowd - Post Gigme Event Previews Map
+  x-api-slug: apiv1gigmeeventpreviewsmap-post
+  description: Post gigme event previews map.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
   humanURL: https://gigandcrowd.com
   baseURL: https://gigandcrowd.com//
-  tags: Maps
+  tags: Events, Concerts, Entertainment, Relative Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/gig--crowd/apiv1gigmeeventpreviewsmap-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1

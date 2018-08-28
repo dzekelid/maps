@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: EPA Envirofacts
 x-complete: 1
@@ -17,4 +16,154 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /echo_rest_services.get_map:
+    get:
+      summary: Combined ECHO Map Service
+      description: The purpose of the GET_MAP service is to display facility coordinates
+        and facility clusters related to a get_facilities facility query. Currently,
+        the maximum number of coordinates returned is 500. GET_MAP performs automatic
+        clustering at the state, county, and zip code levels to maximize the number
+        of coordinates returned.
+      operationId: the-purpose-of-the-get-map-service-is-to-display-facility-coordinates-and-facility-clusters-related-
+      x-api-path-slug: echo-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Combined
+      - ECHO
+      - Map
+      - Service
+  /air_rest_services.get_map:
+    get:
+      summary: Clean Air Act Map Service
+      description: The purpose of the GET_MAP service is to display facility coordinates
+        and facility clusters related to a get_facilities facility query. Currently,
+        the maximum number of coordinates returned is 500. GET_MAP performs automatic
+        clustering at the state, county, and zip code levels to maximize the number
+        of coordinates returned.
+      operationId: the-purpose-of-the-get-map-service-is-to-display-facility-coordinates-and-facility-clusters-related-
+      x-api-path-slug: air-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Clean
+      - Air
+      - Act
+      - Map
+      - Service
+  /cwa_rest_services.get_map:
+    get:
+      summary: Clean Water Act (CWA) Map Service
+      description: The purpose of the GET_MAP service is to display facility coordinates
+        and facility clusters related to a get_facilities facility query. Currently,
+        the maximum number of coordinates returned is 500. GET_MAP performs automatic
+        clustering at the state, county, and zip code levels to maximize the number
+        of coordinates returned.
+      operationId: the-purpose-of-the-get-map-service-is-to-display-facility-coordinates-and-facility-clusters-related-
+      x-api-path-slug: cwa-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Clean
+      - Water
+      - Act
+      - (CWA)
+      - Map
+      - Service
+  /dfr_rest_services.get_map:
+    get:
+      summary: Detailed Facility Report Map Service
+      description: Returns an object with the facility's latitude and longitude coordinates.
+      operationId: returns-an-object-with-the-facilitys-latitude-and-longitude-coordinates-
+      x-api-path-slug: dfr-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Detailed
+      - Facility
+      - Report
+      - Map
+      - Service
+  /case_rest_services.get_map:
+    get:
+      summary: Enforcement Case Map Service
+      description: The purpose of the GET_MAP service is to display facility coordinates
+        and facility clusters related to a get_cases query. Currently, the maximum
+        number of coordinates returned is 500. GET_MAP performs automatic clustering
+        at the state, county, and zip code levels to maximize the number of coordinates
+        returned.
+      operationId: the-purpose-of-the-get-map-service-is-to-display-facility-coordinates-and-facility-clusters-related-
+      x-api-path-slug: case-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Enforcement
+      - Case
+      - Map
+      - Service
+  /rcra_rest_services.get_map:
+    get:
+      summary: Resource Conservation and Recovery Act (RCRA) Map Service
+      description: The purpose of the GET_MAP service is to display facility coordinates
+        and facility clusters related to a get_facilities facility query. Currently,
+        the maximum number of coordinates returned is 500. GET_MAP performs automatic
+        clustering at the state, county, and zip code levels to maximize the number
+        of coordinates returned.
+      operationId: the-purpose-of-the-get-map-service-is-to-display-facility-coordinates-and-facility-clusters-related-
+      x-api-path-slug: rcra-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Resource
+      - Conservation
+      - Recovery
+      - Act
+      - (RCRA)
+      - Map
+      - Service

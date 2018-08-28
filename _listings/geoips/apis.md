@@ -7,22 +7,11 @@ image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly
 x-kinRank: "7"
 x-alexaRank: "996841"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/geoips/apis.md
 specificationVersion: "0.14"
-apis:
-- name: GeoIPs
-  x-api-slug: geoips
-  description: 'Create an instant connection with your website visitors. Real-time
-    IP Lookup: country, country code, city, latitude, longitude, timezone, owner.'
-  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
-  humanURL: http://www.geoips.com
-  baseURL: https:///
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/geoips/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.geoips.com/

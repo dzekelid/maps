@@ -9,14 +9,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
 apis:
-- name: ClimaCell
-  x-api-slug: climacell
-  description: the-climacell-rest-api-provides-access-to-high-resolution-weather-data-for-locations-across-the-u-s--with-global-data-coming-soon--it-uses-https-and-requires-an-access-token-key--the-api-requests-carry-query-parameters-and-the-responses-return-results-in-json-format-
+- name: ClimaCell API - Get Weather Map Layer Ts Z X Y .png
+  x-api-slug: weather-map-layertszxy-png-get
+  description: |-
+    ## Weather Map Layer (Visual Tiles)
+    The ```weather_map``` is a tiled image call compatible with most modern mapping UI libraries:
+      * OpenLayers (see ???https://openlayers.org/en/latest/apidoc/ol.source.XYZ.html???)
+      * Leaflets
+      * MapBox
+      * Google Maps
+
+    The call displays a precipitation heatmap on your existing geography user interface. You can overlay an actual precipitation layer. In the future, Climacell will support other weather parameter overlays.
+
+    The tile grid is composed of 256x256 pixel tiles with (x,y) coordinates, where (0,0) is at thenorthwest corner of the map. x increase as the map goes east, and y increases as it goes south.
+
+    ![tiile layer|150x150](/api-docs/custom/tile_layer.png)
+
+    Note: For more information about Tiling, please visit
+    https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
   humanURL: https://www.climacell.co
   baseURL: https://api2.climacell.co//v2
@@ -24,9 +39,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
-- name: ClimaCell
-  x-api-slug: climacell
-  description: the-climacell-rest-api-provides-access-to-high-resolution-weather-data-for-locations-across-the-u-s--with-global-data-coming-soon--it-uses-https-and-requires-an-access-token-key--the-api-requests-carry-query-parameters-and-the-responses-return-results-in-json-format-
+- name: ClimaCell API - Get Weather Map Layer Ts Z X Y .png
+  x-api-slug: weather-map-layertszxy-png-get
+  description: |-
+    ## Weather Map Layer (Visual Tiles)
+    The ```weather_map``` is a tiled image call compatible with most modern mapping UI libraries:
+      * OpenLayers (see ???https://openlayers.org/en/latest/apidoc/ol.source.XYZ.html???)
+      * Leaflets
+      * MapBox
+      * Google Maps
+
+    The call displays a precipitation heatmap on your existing geography user interface. You can overlay an actual precipitation layer. In the future, Climacell will support other weather parameter overlays.
+
+    The tile grid is composed of 256x256 pixel tiles with (x,y) coordinates, where (0,0) is at thenorthwest corner of the map. x increase as the map goes east, and y increases as it goes south.
+
+    ![tiile layer|150x150](/api-docs/custom/tile_layer.png)
+
+    Note: For more information about Tiling, please visit
+    https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
   humanURL: https://www.climacell.co
   baseURL: https://api2.climacell.co//v2
@@ -34,11 +64,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
-- name: ClimaCell
-  x-api-slug: climacell
-  description: the-climacell-rest-api-provides-access-to-high-resolution-weather-data-for-locations-across-the-u-s--with-global-data-coming-soon--it-uses-https-and-requires-an-access-token-key--the-api-requests-carry-query-parameters-and-the-responses-return-results-in-json-format-
+- name: ClimaCell API - Get Weather Map Layer Ts Z X Y .png
+  x-api-slug: weather-map-layertszxy-png-get
+  description: |-
+    ## Weather Map Layer (Visual Tiles)
+    The ```weather_map``` is a tiled image call compatible with most modern mapping UI libraries:
+      * OpenLayers (see ???https://openlayers.org/en/latest/apidoc/ol.source.XYZ.html???)
+      * Leaflets
+      * MapBox
+      * Google Maps
+
+    The call displays a precipitation heatmap on your existing geography user interface. You can overlay an actual precipitation layer. In the future, Climacell will support other weather parameter overlays.
+
+    The tile grid is composed of 256x256 pixel tiles with (x,y) coordinates, where (0,0) is at thenorthwest corner of the map. x increase as the map goes east, and y increases as it goes south.
+
+    ![tiile layer|150x150](/api-docs/custom/tile_layer.png)
+
+    Note: For more information about Tiling, please visit
+    https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
   humanURL: https://www.climacell.co
   baseURL: https://api2.climacell.co//v2
@@ -46,23 +89,31 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
-- name: ClimaCell
-  x-api-slug: climacell
-  description: ClimaCell provides the most accurate weather data in the world by integrating
-    proprietary data extracted from wireless networks and other new sensing technologies
-    with data from traditional sensors. With 90% correlation to ground truth (vs.
-    50% using radar), it&rsquo;s the best you can get for your enterprise.
+- name: ClimaCell API - Get Weather Map Layer Ts Z X Y .png
+  x-api-slug: weather-map-layertszxy-png-get
+  description: |-
+    ## Weather Map Layer (Visual Tiles)
+    The ```weather_map``` is a tiled image call compatible with most modern mapping UI libraries:
+      * OpenLayers (see ???https://openlayers.org/en/latest/apidoc/ol.source.XYZ.html???)
+      * Leaflets
+      * MapBox
+      * Google Maps
+
+    The call displays a precipitation heatmap on your existing geography user interface. You can overlay an actual precipitation layer. In the future, Climacell will support other weather parameter overlays.
+
+    The tile grid is composed of 256x256 pixel tiles with (x,y) coordinates, where (0,0) is at thenorthwest corner of the map. x increase as the map goes east, and y increases as it goes south.
+
+    ![tiile layer|150x150](/api-docs/custom/tile_layer.png)
+
+    Note: For more information about Tiling, please visit
+    https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
   humanURL: https://www.climacell.co
   baseURL: https://api2.climacell.co//v2
-  tags: Maps
+  tags: Weather, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/climacell/weather-map-layertszxy-png-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clickatell.api.gallery.streamdata.io

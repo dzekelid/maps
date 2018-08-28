@@ -15,6 +15,7 @@ info:
     or any.   If the artifact type is 'portToFieldMap', specify the orchestration
     step ID tagged as 'stepId'.   Otherwise, 'name' will be used as 'stepId'.  (See
     the documentation for more information regarding these files.)
+host: predix-acs.run.aws-usw02-pr.ice.predix.io
 basePath: /
 schemes:
 - http
@@ -78,6 +79,89 @@ paths:
       - Orchestration
       - Configuration
       - Entry
+  /api/v2/config/orchestrations/artifacts/{id}:
+    put:
+      summary: Update an artifact by id.
+      description: Update the artifact of the orchestration configuration with the
+        contents of the supplied multipart MIME structure. The multipart MIME structure
+        may have new file contents tagged as 'file',  new artifact type tagged as
+        'type',  new name of artifact tagged as 'name',  new description (under 1024
+        characters) tagged as 'description', and  new value of the orchestration step
+        id tagged as 'stepId.   Artifact types can be either 'portToFieldMap', 'bpmn'
+        or any.  (See the documentation for more information regarding these files.)
+      operationId: updateOrchConfigArtifact
+      x-api-path-slug: apiv2configorchestrationsartifactsid-put
+      parameters:
+      - in: header
+        name: Authorization
+        description: Authorization
+      - in: formData
+        name: description
+        description: Artifact description
+      - in: formData
+        name: file
+        description: Artifact file
+      - in: path
+        name: id
+        description: Artifact id
+      - in: formData
+        name: name
+        description: Artifact name
+      - in: header
+        name: Predix-Zone-Id
+        description: Predix-Zone-Id
+      - in: formData
+        name: stepId
+        description: Orchestration Step ID
+      - in: formData
+        name: type
+        description: Artifact type
+      responses:
+        2:
+          description: Successful response
+      tags:
+      - Artifact
+      - By
+      - Id
+  /api/v2/config/orchestrations/{id}/file:
+    get:
+      summary: Download an orchestration artifact file by orchestration id and artifact
+        type.
+      description: The file is downloaded as an octet-stream. If the type is bpmn,
+        then then bpmn xml is downloaded. If the type is portToFieldMap, then the
+        system expects analyticStepId to download the portToFieldMap for the given
+        step
+      operationId: downloadArtifactByType
+      x-api-path-slug: apiv2configorchestrationsidfile-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Authorization
+      - in: path
+        name: id
+        description: orchestration configuration entry id
+      - in: query
+        name: name
+        description: artifact name (analytic step id)
+      - in: header
+        name: Predix-Zone-Id
+        description: Predix-Zone-Id
+      - in: query
+        name: type
+        description: artifact type (Ex
+      responses:
+        2:
+          description: Successful response
+      tags:
+      - Download
+      - Orchestration
+      - Artifact
+      - File
+      - By
+      - Orchestration
+      - Id
+      - Artifact
+      - Type
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

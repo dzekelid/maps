@@ -93,6 +93,81 @@ paths:
       - Mappings
       - Remove
       - Metadata
+  /mappings/reset:
+    post:
+      summary: Post Mappings Reset
+      description: Reset stub mappings (restore to defaults defined back the backing
+        store)
+      operationId: postMappingsReset
+      x-api-path-slug: mappingsreset-post
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Mappings
+      - Reset
+  /mappings/save:
+    post:
+      summary: Post Mappings Save
+      description: Save all persistent stub mappings to the backing store
+      operationId: postMappingsSave
+      x-api-path-slug: mappingssave-post
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Mappings
+      - Save
+  /mappings/{stubMappingId}:
+    delete:
+      summary: Delete Mappings Stubmappingid
+      description: Delete mappings stubmappingid.
+      operationId: deleteMappingsStubmapping
+      x-api-path-slug: mappingsstubmappingid-delete
+      parameters:
+      - in: path
+        name: stubMappingId
+        description: The UUID of stub mapping
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Mappings
+      - Stubmappingid
+    get:
+      summary: Get Mappings Stubmappingid
+      description: Get mappings stubmappingid.
+      operationId: getMappingsStubmapping
+      x-api-path-slug: mappingsstubmappingid-get
+      parameters:
+      - in: path
+        name: stubMappingId
+        description: The UUID of stub mapping
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Mappings
+      - Stubmappingid
+    put:
+      summary: Put Mappings Stubmappingid
+      description: Update an existing stub mapping
+      operationId: putMappingsStubmapping
+      x-api-path-slug: mappingsstubmappingid-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: stubMappingId
+        description: The UUID of stub mapping
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Mappings
+      - Stubmappingid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

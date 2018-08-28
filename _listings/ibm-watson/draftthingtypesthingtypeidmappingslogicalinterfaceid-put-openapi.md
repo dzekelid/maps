@@ -338,6 +338,29 @@ paths:
       - ThingTypeId
       - Mappings
       - LogicalInterfaceId
+    delete:
+      summary: |-
+        Delete the property mappings for a specific logical interface for
+        the draft thing type.
+      description: |-
+        Deletes the property mappings for a specific logical interface
+        for the draft thing type.
+      operationId: deletes-the-property-mappings-for-a-specific-logical-interfacefor-the-draft-thing-type
+      x-api-path-slug: draftthingtypesthingtypeidmappingslogicalinterfaceid-delete
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Thing
+      - Types
+      - ThingTypeId
+      - Mappings
+      - LogicalInterfaceId
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -8,14 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-
 x-kinRank: "7"
 x-alexaRank: "603625"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Broadleaf Commerce API
-  x-api-slug: broadleaf-commerce-api
-  description: the-default-broadleaf-commerce-apis
+- name: Broadleaf Commerce API - Get Mappings
+  x-api-slug: mappings-get
+  description: Get mappings.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
   humanURL: https://www.broadleafcommerce.com
   baseURL: https://demo.broadleafcommerce.org//api/v1
@@ -23,30 +23,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/mappings-get-openapi.md
-- name: Broadleaf Commerce API
-  x-api-slug: broadleaf-commerce-api
-  description: the-default-broadleaf-commerce-apis
+- name: Broadleaf Commerce API - Get Mappings
+  x-api-slug: mappings-json-get
+  description: Get mappings.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
   humanURL: https://www.broadleafcommerce.com
   baseURL: https://demo.broadleafcommerce.org//api/v1
   tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/mappings-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/mappings-json-get-openapi.md
-- name: Broadleaf Commerce API
-  x-api-slug: broadleaf-commerce-api
-  description: Broadleaf Commerce is a software technology company headquartered in
-    Dallas, Texas, providing an open source Java eCommerce platform based on Spring
-    Framework.
+- name: Broadleaf Commerce API - Get Mappings
+  x-api-slug: mappings-get
+  description: Get mappings.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
   humanURL: https://www.broadleafcommerce.com
   baseURL: https://demo.broadleafcommerce.org//api/v1
-  tags: Maps
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/mappings-get-openapi.md
+- name: Broadleaf Commerce API - Get Mappings
+  x-api-slug: mappings-json-get
+  description: Get mappings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/broadleaf-commerce/mappings-json-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://demo.broadleafcommerce.org/api/v1/v2/api-docs

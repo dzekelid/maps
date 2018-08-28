@@ -11,14 +11,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Create Event Source Mapping
+  x-api-slug: actioncreateeventsourcemapping-get
+  description: Identifies a stream as an event source for a Lambda function.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -28,9 +28,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Create Event Source Mapping
+  x-api-slug: actioncreateeventsourcemapping-get
+  description: Identifies a stream as an event source for a Lambda function.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -40,11 +40,109 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Delete Event Source Mapping
+  x-api-slug: actiondeleteeventsourcemapping-get
+  description: Removes an event source mapping.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Delete Event Source Mapping
+  x-api-slug: actiondeleteeventsourcemapping-get
+  description: Removes an event source mapping.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Get Event Source Mapping
+  x-api-slug: actiongeteventsourcemapping-get
+  description: Returns configuration information for the specified event source mapping
+    (see.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Get Event Source Mapping
+  x-api-slug: actiongeteventsourcemapping-get
+  description: Returns configuration information for the specified event source mapping
+    (see.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
+- name: AWS Lambda API - List Event Source Mappings
+  x-api-slug: actionlisteventsourcemappings-get
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
+- name: AWS Lambda API - List Event Source Mappings
+  x-api-slug: actionlisteventsourcemappings-get
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
+- name: AWS Lambda API - Update Event Source Mapping
+  x-api-slug: actionupdateeventsourcemapping-get
+  description: You can update an event source mapping.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Update Event Source Mapping
+  x-api-slug: actionupdateeventsourcemapping-get
+  description: You can update an event source mapping.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
+- name: AWS Lambda API - Create Event Source Mapping
+  x-api-slug: actioncreateeventsourcemapping-get
+  description: Identifies a stream as an event source for a Lambda function.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -54,13 +152,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Create Event Source Mapping
+  x-api-slug: actioncreateeventsourcemapping-get
+  description: Identifies a stream as an event source for a Lambda function.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -70,15 +164,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Delete Event Source Mapping
+  x-api-slug: actiondeleteeventsourcemapping-get
+  description: Removes an event source mapping.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -87,18 +175,10 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Delete Event Source Mapping
+  x-api-slug: actiondeleteeventsourcemapping-get
+  description: Removes an event source mapping.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -107,20 +187,11 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Get Event Source Mapping
+  x-api-slug: actiongeteventsourcemapping-get
+  description: Returns configuration information for the specified event source mapping
+    (see.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -129,22 +200,11 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Get Event Source Mapping
+  x-api-slug: actiongeteventsourcemapping-get
+  description: Returns configuration information for the specified event source mapping
+    (see.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -153,24 +213,11 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - List Event Source Mappings
+  x-api-slug: actionlisteventsourcemappings-get
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -179,26 +226,11 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - List Event Source Mappings
+  x-api-slug: actionlisteventsourcemappings-get
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -207,28 +239,10 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Update Event Source Mapping
+  x-api-slug: actionupdateeventsourcemapping-get
+  description: You can update an event source mapping.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -237,30 +251,10 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - Update Event Source Mapping
+  x-api-slug: actionupdateeventsourcemapping-get
+  description: You can update an event source mapping.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -269,32 +263,11 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
+- name: AWS Lambda API - List Event Source Mappings
+  x-api-slug: actionlisteventsourcemappings-get
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
@@ -303,354 +276,7 @@ apis:
     API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actioncreateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiondeleteeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actiongeteventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionlisteventsourcemappings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/actionupdateeventsourcemapping-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: AWS Lambda is a zero-administration compute platform for back-end web
-    developers that runs your code for you in the AWScloudand provides you with a
-    fine-grained pricing structure. AWS Lambda runs your back-end code on its own
-    AWS compute fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances across
-    multiple Availability Zones in a region, which provides the high availability,
-    security, performance, and scalability of the AWS infrastructure.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
-  humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: :///
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/aws-lambda/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.kinesis.analytics.api.gallery.streamdata.io

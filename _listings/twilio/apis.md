@@ -7,2486 +7,621 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
     Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
-    Service API, Relative StreamRank, StreamRank
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: Cloud communications platform for building SMS, Voice & Messaging applications
-    on an API built for global scale. Get started with a free trial.
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
-  tags: Maps
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://www.twilio.com/docs/csharp/install

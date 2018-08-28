@@ -9,6 +9,7 @@ info:
   description: The file is downloaded as an octet-stream. If the type is bpmn, then
     then bpmn xml is downloaded. If the type is portToFieldMap, then the system expects
     analyticStepId to download the portToFieldMap for the given step
+host: predix-acs.run.aws-usw02-pr.ice.predix.io
 basePath: /
 schemes:
 - http

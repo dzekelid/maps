@@ -231,6 +231,136 @@ paths:
       - ThingTypeId
       - Mappings
       - LogicalInterfaceId
+  /draft/thing/types/{thingTypeId}/mappings:
+    get:
+      summary: Get the list of draft property mappings for the thing type
+      description: |-
+        Retrieve the list of draft property mappings for the specified draft
+        thing type.  A property mapping defines how properties from state update
+        events on aggregated devices or things are mapped to properties defined
+        on a logical interface associated with the thing type.
+      operationId: retrieve-the-list-of-draft-property-mappings-for-the-specified-draftthing-type--a-property-mapping-d
+      x-api-path-slug: draftthingtypesthingtypeidmappings-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Thing
+      - Types
+      - ThingTypeId
+      - Mappings
+    post:
+      summary: |-
+        Create the draft property mappings for a logical interface for the thing
+        type
+      description: |-
+        Creates the draft property mappings for a logical interface for the
+        thing type.  The mapping object must specify:
+        - The id for for the logical interface that the mappings are for
+        - The mappings that define how to map from properties on the state
+          update events to the properties on the logical interface.  The
+          mappings are keyed off of the name of the internal properties of the
+          thing type.
+      operationId: creates-the-draft-property-mappings-for-a-logical-interface-for-thething-type--the-mapping-object-mu
+      x-api-path-slug: draftthingtypesthingtypeidmappings-post
+      parameters:
+      - in: query
+        name: No Name
+      - in: body
+        name: Thing Type Property Mappings
+        description: The JSON representation of the thing type property mappings
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Thing
+      - Types
+      - ThingTypeId
+      - Mappings
+  /draft/thing/types/{thingTypeId}/mappings/{logicalInterfaceId}:
+    get:
+      summary: |-
+        Get the draft property mappings for a specific logical interface for
+        a thing type.
+      description: |-
+        Retrieves the draft property mappings for a specific logical interface
+        for the thing type.
+      operationId: retrieves-the-draft-property-mappings-for-a-specific-logical-interfacefor-the-thing-type
+      x-api-path-slug: draftthingtypesthingtypeidmappingslogicalinterfaceid-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Thing
+      - Types
+      - ThingTypeId
+      - Mappings
+      - LogicalInterfaceId
+    put:
+      summary: |-
+        Update the property mappings for a specific logical interface for
+        the thing type.
+      description: |-
+        Updates the property mappings for a specific logical interface
+        for the draft thing type.
+      operationId: updates-the-property-mappings-for-a-specific-logical-interfacefor-the-draft-thing-type
+      x-api-path-slug: draftthingtypesthingtypeidmappingslogicalinterfaceid-put
+      parameters:
+      - in: query
+        name: No Name
+      - in: body
+        name: Thing Type Property Mappings
+        description: The JSON representation of the thing type property mappings
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Thing
+      - Types
+      - ThingTypeId
+      - Mappings
+      - LogicalInterfaceId
+    delete:
+      summary: |-
+        Delete the property mappings for a specific logical interface for
+        the draft thing type.
+      description: |-
+        Deletes the property mappings for a specific logical interface
+        for the draft thing type.
+      operationId: deletes-the-property-mappings-for-a-specific-logical-interfacefor-the-draft-thing-type
+      x-api-path-slug: draftthingtypesthingtypeidmappingslogicalinterfaceid-delete
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Thing
+      - Types
+      - ThingTypeId
+      - Mappings
+      - LogicalInterfaceId
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

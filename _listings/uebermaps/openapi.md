@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: uebermaps
 x-complete: 1
@@ -1085,4 +1084,3 @@ paths:
       - Mapsa
       - Given
       - User
----

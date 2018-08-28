@@ -7,25 +7,17 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Confluence Cloud API
-  x-api-slug: confluence-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -37,9 +29,59 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -51,13 +93,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -69,17 +110,374 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-delete
+  description: Delete the passed workflow from the workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Update workflow mapping
+  x-api-slug: api2workflowschemeidworkflow-put
+  description: |-
+    Update the scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
+
+    The passed representation can have its updateDraftIfNeeded flag set to true to indicate that the draft should be created/updated when the actual scheme cannot be edited.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Delete draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-delete
+  description: Delete the passed workflow from the draft workflow scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -91,21 +489,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -117,25 +506,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -147,29 +523,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Update draft workflow mapping
+  x-api-slug: api2workflowschemeiddraftworkflow-put
+  description: |-
+    Update the draft scheme to include the passed mapping.
+
+    The body is a representation of the workflow mapping. Values not passed are assumed to indicate no change for that field.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -181,313 +540,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeiddraftworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/api2workflowschemeidworkflow-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/openapi.md
-- name: Jira Service Desk API
-  x-api-slug: jira-service-desk-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/openapi.md
-- name: Jira Software Cloud API
-  x-api-slug: jira-software-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/atlassian/openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

@@ -149,6 +149,25 @@ paths:
       tags:
       - Mappings
       - Stubmappingid
+    put:
+      summary: Put Mappings Stubmappingid
+      description: Update an existing stub mapping
+      operationId: putMappingsStubmapping
+      x-api-path-slug: mappingsstubmappingid-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: stubMappingId
+        description: The UUID of stub mapping
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Mappings
+      - Stubmappingid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

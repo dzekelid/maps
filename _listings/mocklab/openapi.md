@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: MockLab
 x-complete: 1
@@ -167,4 +166,3 @@ paths:
       tags:
       - Mappings
       - Stubmappingid
----

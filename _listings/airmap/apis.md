@@ -12,27 +12,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/airmap/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AirMap
-  x-api-slug: airmap
-  description: AirMap is the leading provider of aeronautical intelligence and navigation
-    services to unmanned aircraft, or drones. Developed by experts in technology,
-    aviation, and policy, AirMap&rsquo;s cutting-edge technology transforms airspace
-    below 500 feet to create an interconnected drone ecosystem. AirMap has a rapidly
-    expanding global network of hundreds of partners and thousands of app users who
-    leverage AirMap&rsquo;s accurate, reliable, and trustworthy airspace data and
-    communication tools enable UAS safely and securely.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/airmap-logo.png
-  humanURL: https://www.airmap.com/
-  baseURL: https:///
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/airmap/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://www.airmap.com/blog/

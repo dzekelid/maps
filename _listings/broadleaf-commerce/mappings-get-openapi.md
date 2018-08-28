@@ -26,6 +26,17 @@ paths:
           description: OK
       tags:
       - Mappings
+  /mappings.json:
+    get:
+      summary: Get Mappings
+      description: Get mappings.
+      operationId: getMappings.json
+      x-api-path-slug: mappings-json-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mappings
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

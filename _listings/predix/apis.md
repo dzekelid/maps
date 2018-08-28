@@ -7,36 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "264121"
 tags: Maps
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Predix Access Control
-  x-api-slug: predix-access-control
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-acs.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Analytics Catalog
-  x-api-slug: predix-analytics-catalog
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: ""
+- name: Analytics Framework - Upload an artifact and attach it to an orchestration
+    configuration entry.
+  x-api-slug: apiv2configorchestrationsartifacts-post
+  description: Upload a single artifact file in a multipart MIME structure and attach
+    it to an orchestration configuration entry. The multipart MIME structure must
+    have the orchestration entry id tagged as 'orchestrationEntryId',  the file contents
+    tagged as 'file',  the artifact type tagged as 'type', and  the name of artifact
+    tagged as 'name'.  A description (under 1024 characters) tagged as 'description'
+    can be optionally specified. Artifact types can be either 'portToFieldMap', 'bpmn'
+    or any.   If the artifact type is 'portToFieldMap', specify the orchestration
+    step ID tagged as 'stepId'.   Otherwise, 'name' will be used as 'stepId'.  (See
+    the documentation for more information regarding these files.)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -44,9 +31,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: ""
+- name: Analytics Framework - Upload an artifact and attach it to an orchestration
+    configuration entry.
+  x-api-slug: apiv2configorchestrationsartifacts-post
+  description: Upload a single artifact file in a multipart MIME structure and attach
+    it to an orchestration configuration entry. The multipart MIME structure must
+    have the orchestration entry id tagged as 'orchestrationEntryId',  the file contents
+    tagged as 'file',  the artifact type tagged as 'type', and  the name of artifact
+    tagged as 'name'.  A description (under 1024 characters) tagged as 'description'
+    can be optionally specified. Artifact types can be either 'portToFieldMap', 'bpmn'
+    or any.   If the artifact type is 'portToFieldMap', specify the orchestration
+    step ID tagged as 'stepId'.   Otherwise, 'name' will be used as 'stepId'.  (See
+    the documentation for more information regarding these files.)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -54,312 +50,163 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: ""
+- name: Analytics Framework - Update an artifact by id.
+  x-api-slug: apiv2configorchestrationsartifactsid-put
+  description: Update the artifact of the orchestration configuration with the contents
+    of the supplied multipart MIME structure. The multipart MIME structure may have
+    new file contents tagged as 'file',  new artifact type tagged as 'type',  new
+    name of artifact tagged as 'name',  new description (under 1024 characters) tagged
+    as 'description', and  new value of the orchestration step id tagged as 'stepId.   Artifact
+    types can be either 'portToFieldMap', 'bpmn' or any.  (See the documentation for
+    more information regarding these files.)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: ""
+- name: Analytics Framework - Update an artifact by id.
+  x-api-slug: apiv2configorchestrationsartifactsid-put
+  description: Update the artifact of the orchestration configuration with the contents
+    of the supplied multipart MIME structure. The multipart MIME structure may have
+    new file contents tagged as 'file',  new artifact type tagged as 'type',  new
+    name of artifact tagged as 'name',  new description (under 1024 characters) tagged
+    as 'description', and  new value of the orchestration step id tagged as 'stepId.   Artifact
+    types can be either 'portToFieldMap', 'bpmn' or any.  (See the documentation for
+    more information regarding these files.)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: ""
+- name: Analytics Framework - Download an orchestration artifact file by orchestration
+    id and artifact type.
+  x-api-slug: apiv2configorchestrationsidfile-get
+  description: The file is downloaded as an octet-stream. If the type is bpmn, then
+    then bpmn xml is downloaded. If the type is portToFieldMap, then the system expects
+    analyticStepId to download the portToFieldMap for the given step
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsidfile-get-openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: ""
+- name: Analytics Framework - Download an orchestration artifact file by orchestration
+    id and artifact type.
+  x-api-slug: apiv2configorchestrationsidfile-get
+  description: The file is downloaded as an octet-stream. If the type is bpmn, then
+    then bpmn xml is downloaded. If the type is portToFieldMap, then the system expects
+    analyticStepId to download the portToFieldMap for the given step
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsidfile-get-openapi.md
+- name: Analytics Runtime - Upload an artifact and attach it to an orchestration configuration
+    entry.
+  x-api-slug: apiv2configorchestrationsartifacts-post
+  description: Upload a single artifact file in a multipart MIME structure and attach
+    it to an orchestration configuration entry. The multipart MIME structure must
+    have the orchestration entry id tagged as 'orchestrationEntryId',  the file contents
+    tagged as 'file',  the artifact type tagged as 'type', and  the name of artifact
+    tagged as 'name'.  A description (under 1024 characters) tagged as 'description'
+    can be optionally specified. Artifact types can be either 'portToFieldMap', 'bpmn'
+    or any.   If the artifact type is 'portToFieldMap', specify the orchestration
+    step ID tagged as 'stepId'.   Otherwise, 'name' will be used as 'stepId'.  (See
+    the documentation for more information regarding these files.)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
+- name: Analytics Runtime - Upload an artifact and attach it to an orchestration configuration
+    entry.
+  x-api-slug: apiv2configorchestrationsartifacts-post
+  description: Upload a single artifact file in a multipart MIME structure and attach
+    it to an orchestration configuration entry. The multipart MIME structure must
+    have the orchestration entry id tagged as 'orchestrationEntryId',  the file contents
+    tagged as 'file',  the artifact type tagged as 'type', and  the name of artifact
+    tagged as 'name'.  A description (under 1024 characters) tagged as 'description'
+    can be optionally specified. Artifact types can be either 'portToFieldMap', 'bpmn'
+    or any.   If the artifact type is 'portToFieldMap', specify the orchestration
+    step ID tagged as 'stepId'.   Otherwise, 'name' will be used as 'stepId'.  (See
+    the documentation for more information regarding these files.)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
+- name: Analytics Runtime - Update an artifact by id.
+  x-api-slug: apiv2configorchestrationsartifactsid-put
+  description: Update the artifact of the orchestration configuration with the contents
+    of the supplied multipart MIME structure. The multipart MIME structure may have
+    new file contents tagged as 'file',  new artifact type tagged as 'type',  new
+    name of artifact tagged as 'name',  new description (under 1024 characters) tagged
+    as 'description', and  new value of the orchestration step id tagged as 'stepId.   Artifact
+    types can be either 'portToFieldMap', 'bpmn' or any.  (See the documentation for
+    more information regarding these files.)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
+- name: Analytics Runtime - Update an artifact by id.
+  x-api-slug: apiv2configorchestrationsartifactsid-put
+  description: Update the artifact of the orchestration configuration with the contents
+    of the supplied multipart MIME structure. The multipart MIME structure may have
+    new file contents tagged as 'file',  new artifact type tagged as 'type',  new
+    name of artifact tagged as 'name',  new description (under 1024 characters) tagged
+    as 'description', and  new value of the orchestration step id tagged as 'stepId.   Artifact
+    types can be either 'portToFieldMap', 'bpmn' or any.  (See the documentation for
+    more information regarding these files.)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
+- name: Analytics Runtime - Download an orchestration artifact file by orchestration
+    id and artifact type.
+  x-api-slug: apiv2configorchestrationsidfile-get
+  description: The file is downloaded as an octet-stream. If the type is bpmn, then
+    then bpmn xml is downloaded. If the type is portToFieldMap, then the system expects
+    analyticStepId to download the portToFieldMap for the given step
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsidfile-get-openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: ""
+- name: Analytics Runtime - Download an orchestration artifact file by orchestration
+    id and artifact type.
+  x-api-slug: apiv2configorchestrationsidfile-get
+  description: The file is downloaded as an octet-stream. If the type is bpmn, then
+    then bpmn xml is downloaded. If the type is portToFieldMap, then the system expects
+    analyticStepId to download the portToFieldMap for the given step
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsidfile-get-openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifacts-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsartifactsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsidfile-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/apiv2configorchestrationsidfile-get-openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix AppHub ARCS
-  x-api-slug: predix-apphub-arcs
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-apphub-arcs-prod.run.aws-usw02-pr.ice.predix.io//api
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Assets
-  x-api-slug: predix-assets
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix BlockChain
-  x-api-slug: predix-blockchain
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Blockchain Data Integrity
-  x-api-slug: predix-blockchain-data-integrity
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://bcdi-proxy-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Data Services
-  x-api-slug: predix-data-services
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://time-series-service-doc.grc-apps.svc.ice.ge.com//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Dynamic Time Warping
-  x-api-slug: predix-dynamic-time-warping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////v1
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Enterprise Connect
-  x-api-slug: predix-enterprise-connect
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://ec-predix-service-osaka.run.aws-usw02-pr.ice.predix.io//v1
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Event Audit Trail
-  x-api-slug: predix-event-audit-trail
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://event-audit-trail.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Fingerprint of Things Object Tagging Service
-  x-api-slug: predix-fingerprint-of-things-object-tagging-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://fingerprint-of-things-ga1-dast.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Insights
-  x-api-slug: predix-insights
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://insights-api.data-services.predix.io//api/v1
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - Create a map
+  x-api-slug: v1maps-post
+  description: Creates a map with the specified name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -367,69 +214,56 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - Return map details
+  x-api-slug: v1mapsmapid-get
+  description: |-
+    For the specified map identifier, returns the map properties and an
+    array of the associated layers. For each layer, the identifier, name and
+    Uniform Resource Identifier (URI) are returned.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - Delete a map
+  x-api-slug: v1mapsmapid-delete
+  description: |-
+    Deletes the map with the specified identifier. Any layers associated
+    with the map are also deleted.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - Rename a map
+  x-api-slug: v1mapsmapid-put
+  description: Updates the name of the map that has the specified identifier.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - List all maps for a customer
+  x-api-slug: v1maps-get
+  description: |-
+    Returns an array of maps for the specified customer. The array contains
+    the name and identifier for each map.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - Create a map
+  x-api-slug: v1maps-post
+  description: Creates a map with the specified name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -437,19 +271,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - Create a map
+  x-api-slug: v1maps-post
+  description: Creates a map with the specified name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -457,21 +281,126 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
+- name: Intelligent Mapping - Return map details
+  x-api-slug: v1mapsmapid-get
+  description: |-
+    For the specified map identifier, returns the map properties and an
+    array of the associated layers. For each layer, the identifier, name and
+    Uniform Resource Identifier (URI) are returned.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
+- name: Intelligent Mapping - Return map details
+  x-api-slug: v1mapsmapid-get
+  description: |-
+    For the specified map identifier, returns the map properties and an
+    array of the associated layers. For each layer, the identifier, name and
+    Uniform Resource Identifier (URI) are returned.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
+- name: Intelligent Mapping - Delete a map
+  x-api-slug: v1mapsmapid-delete
+  description: |-
+    Deletes the map with the specified identifier. Any layers associated
+    with the map are also deleted.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
+- name: Intelligent Mapping - Delete a map
+  x-api-slug: v1mapsmapid-delete
+  description: |-
+    Deletes the map with the specified identifier. Any layers associated
+    with the map are also deleted.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
+- name: Intelligent Mapping - Rename a map
+  x-api-slug: v1mapsmapid-put
+  description: Updates the name of the map that has the specified identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
+- name: Intelligent Mapping - Rename a map
+  x-api-slug: v1mapsmapid-put
+  description: Updates the name of the map that has the specified identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
+- name: Intelligent Mapping - List all maps for a customer
+  x-api-slug: v1maps-get
+  description: |-
+    Returns an array of maps for the specified customer. The array contains
+    the name and identifier for each map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
+- name: Intelligent Mapping - Rename a map
+  x-api-slug: v1mapsmapid-put
+  description: Updates the name of the map that has the specified identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
+- name: Intelligent Mapping - Delete a map
+  x-api-slug: v1mapsmapid-delete
+  description: |-
+    Deletes the map with the specified identifier. Any layers associated
+    with the map are also deleted.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
+- name: Intelligent Mapping - Return map details
+  x-api-slug: v1mapsmapid-get
+  description: |-
+    For the specified map identifier, returns the map properties and an
+    array of the associated layers. For each layer, the identifier, name and
+    Uniform Resource Identifier (URI) are returned.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
+- name: Intelligent Mapping - Create a map
+  x-api-slug: v1maps-post
+  description: Creates a map with the specified name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -479,283 +408,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
+- name: Intelligent Mapping - List all maps for a customer
+  x-api-slug: v1maps-get
+  description: |-
+    Returns an array of maps for the specified customer. The array contains
+    the name and identifier for each map.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: intelligent-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1mapsmapid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/v1maps-get-openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Notification Service
-  x-api-slug: predix-notification-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://ev-notification-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Nurego
-  x-api-slug: predix-nurego
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://api.nurego.com//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix SAS ESP Predix Service
-  x-api-slug: predix-sas-esp-predix-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://sas-proxy.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Tenant Management
-  x-api-slug: predix-tenant-management
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-tms.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix ThetaRay Predix Service
-  x-api-slug: predix-thetaray-predix-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://thetaray-anomaly-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
-- name: Predix Views
-  x-api-slug: predix-views
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////v1
-  tags: Maps
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/maps/master/_listings/predix/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io
